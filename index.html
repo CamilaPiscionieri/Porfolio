@@ -56,7 +56,8 @@
 
         <div class="carta">
             <h3>Programadora Front-End</h3>
-            <p># HTML<br>
+            <p id="Buttoncar">
+                # HTML<br>
                # CSS <br>
                # JavaScript <br>
                # Bootstrap<br>
@@ -64,23 +65,24 @@
                # React<br>
                # Angular<br>
             </p>
-         <button>+ Info</button> 
+         <button  onclick="mostrar();">+ Info</button> 
         </div>
 
         <div class="carta">
             <h3>Programadora Back-End</h3>
-            <p># Base de datos Relacionales<br>
+            <p id="Buttoncar1">
+               # Base de datos Relacionales<br>
                # Java <br>
                # PHP <br>
                # Python <br>
                # Node.js
             </p>
-        <button>+ Info</button>
+            <button onclick="mostrar1()">+ Info</button> 
         </div>
 
         <div class="carta">
             <h3>Otros Complementos</h3>
-            <p>
+            <p id="Buttoncar2">
                # .NET <br>
                # Metodologias Agiles<br>
                # Jira<br>
@@ -88,10 +90,13 @@
                # GitHub<br>
                # UX/UI
             </p>
-        <button>+ Info</button>
+            <button  onclick="mostrar2();">+ Info</button> 
         </div> 
+        
     </div>
+    
 </div>
+
     </section>
 
     <section id="caracteristicas">
@@ -118,6 +123,19 @@
             <p>&copy; Programadora 2022</p>
         </div>
     </footer>
+    
+    <script>
+        function mostrar(){
+            document.getElementById('Buttoncar').style.display = 'block';
+        }
+        function mostrar1(){
+            document.getElementById('Buttoncar1').style.display = 'block';
+        }
+        function mostrar2(){
+            document.getElementById('Buttoncar2').style.display = 'block';
+        }
+    </script> 
+
 </body>
 
 </html>
