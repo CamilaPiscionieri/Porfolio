@@ -38,6 +38,10 @@ button:hover{
     margin: auto;
 }
 
+.githu{
+    font-size: 1em;
+}
+
 .color-acento{ color: blueviolet;}
 
 header{
@@ -102,9 +106,9 @@ header a:hover{
     font-size: 1.75em; 
 }
 
-#somos-proya{
+/* #somos-proya{
 
-}
+} */
 
 #somos-proya .container{
     text-align: center;
@@ -130,14 +134,16 @@ font-size: 3.2em;
     display: none;
 }
 
-#nuestros-programas h3{font-size: 1.7em;}
+#nuestros-programas h3{
+    font-size: 1.7em;
+}
 
 #nuestros-programas .carta{
     background-position: center center;
     /* background-size: cover;  */
     background-size: 100% 100px; 
     padding: 15px;
-    margin: 20px;
+    margin: 10px;
     border-radius: 15px;
     background-repeat: no-repeat;
     background-position-y: 0;
@@ -198,7 +204,7 @@ font-size: 3.2em;
 
 #caracteristicas .container{
     text-align: center;
-    padding: 250px 12px;
+     padding: 250px 12px; 
 
 }
 
