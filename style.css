@@ -483,6 +483,21 @@ background: none;
 
 @media screen and (max-width: 550px){
 
+    .hidden{
+        overflow: hidden;
+        }
+        
+    .centrar{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: #000;
+        z-index: 100;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
     #final{
         background: none;
         
